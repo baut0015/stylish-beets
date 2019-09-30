@@ -1,0 +1,21 @@
+html {
+  background-color #c9b5ab;
+}
+
+header {
+  color: #3f1622;
+  font-family: "PT Sans" , sans-serif;
+}
+
+nav ol {
+  color: #8f2440;
+}
+
+main p {
+  font-family: "PT Serif" , serif;
+}
+
+#tags, #nutrional-information, #common-varieties {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+}
