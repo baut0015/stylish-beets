@@ -1,21 +1,121 @@
 html {
-  background-color #c9b5ab;
+  background-color: #c9b5ab;
+  line-height: 1.5;
 }
 
-header {
+h1, i {
   color: #3f1622;
-  font-family: "PT Sans" , sans-serif;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5;
 }
 
-nav ol {
+nav {
   color: #8f2440;
 }
 
-main p {
-  font-family: "PT Serif" , serif;
-}
-
-#tags, #nutrional-information, #common-varieties {
+i :not(.cite2) {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+}
+
+figcaption {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: .8rem;
+  color: black;
+  text-align: center;
+  font-weight: normal;
+}
+
+.day {
+  font-weight: bold;
+}
+
+nav ol {
+  font-weight: bold;
+  font-size: 1.125rem;
+  color: #8f2440;
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+}
+
+a {
+  color: #8f2440;
+  text-decoration: none;
+}
+
+nav a {
+  list-style-type: none;
+  color: #8f2440;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+main p {
+  font-family: "PT Serif", serif;
+  font-size: 1.125rem;
+  font-weight: normal;
+}
+
+.cite {
+  font-size: 1.5rem;
+  font-style: italic;
+}
+
+.cite2 {
+  font-size: 1.125rem;
+  font-style: italic;
+  font-weight: normal;
+  color: black;
+}
+
+strong {
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+#tags, #nutritional-information, #common-varieties {
+  color: #3f1622;
+  font-family: "PT Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.ula {
+  list-style-type: lower-greek;
+}
+
+.ule {
+  list-style-type: circle;
+}
+
+.serving {
+  font-style: italic;
+  font-weight: normal;
+}
+
+dt {
+  font-weight: bold;
+}
+
+footer {
+  font-size: .8rem;
+}
+
+.wiki {
+  color: #8f2440;
+  font-style: normal;
+  font-family: "PT Serif", serif;
 }
